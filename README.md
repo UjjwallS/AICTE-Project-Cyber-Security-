@@ -17,3 +17,9 @@ This project implements **image-based steganography** to securely hide and retri
 - **Cross-Platform Compatibility** – Works on Windows, Linux, and macOS.  
 
 ## 📂 Project Structure  
+├── 📄 **encrypt.py** → Encrypts the message into an image
+├── 📄 **decrypt.py** → Decrypts the message from the image
+├── 🖼️ **mypic.jpg**→ Input image for encryption (use a PNG file)
+├── 🖼️ **encryptedImage.png** → Output encrypted image
+├── 📝 **key.txt** → Stores the passcode for decryption
+├── 📄 **README.md** → Project documentation
